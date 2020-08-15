@@ -1,0 +1,49 @@
+
+.col-sm-4 {
+  margin-bottom: 14px;
+}
+
+.photo-link:hover {
+  opacity: 0.5;
+}
+
+figcaption {
+  margin-top: 14px;
+}
+
+a {
+  color: #595959;
+}
+
+mark {
+  background-color: #F2F2F2;
+  color: #595959;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,h3 {
+  font-family:'Roboto', sans-serif;
+  font-size: 30px;  
+  color: #0D0D0D;
+} 
+p {
+  font-family:'Roboto', sans-serif; 
+  color: #0D0D0D;
+  font-size: 20px;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+footer {
+  margin-top: 25%;
+  font-size: 10px;
+}
+footer {
+  font-size: 10px;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+}
