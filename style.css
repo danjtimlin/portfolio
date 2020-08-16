@@ -7,6 +7,10 @@
   opacity: 0.5;
 }
 
+header {
+  margin-top: 20px;
+}
+
 figcaption {
   margin-top: 14px;
 }
@@ -39,11 +43,15 @@ body {
 }
 
 footer {
-  margin-top: 25%;
-  font-size: 10px;
+  margin-top: 15%;
+  margin-bottom: 15px;
+  font-family:'Roboto', sans-serif; 
+  color: #0D0D0D;
+  font-size: 12px;
 }
-footer {
-  font-size: 10px;
-}
+
+
+
+
 @media screen and (min-width: 300px) and (max-width: 600px) {
 }

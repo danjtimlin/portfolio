@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dan's Portfolio</title>
+    <title>Dan Timlin</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -12,34 +12,34 @@
   </head>
   <body>
     <!--header with logo here-->
-    <header>
+    <header role="banner">
       <div class="row">
         <div class="col-sm-3">
-          <img src="photos/danLogo2.png" style="margin-left: 14px;">
+          <img src="photos/danlogoupdate2.png" alt="Dan Timlin Logo" style="margin-left: 14px;">
         </div>
         <div class="col-sm-3">
 
         </div>
         <div class="col-sm-3 text-right" style="margin-top: 16px; margin-right: 14px; font-size:20px;">
-          <a href="mailto:furnaceboyrecords@gmail.com">Contact <span class="glyphicon glyphicon-envelope"></span></a>
+          <a href="mailto:furnaceboyrecords@gmail.com" aria-label="Contact with email">Contact <span class="glyphicon glyphicon-envelope"></span></a>
         </div>
       </div>
     </header> 
       <!--end header-->
   
     <!--about-->
-    <div class="container text-left" id="about">
+    <div class="container text-left" id="about" role="complementary">
       <h3>Self motivated web developer, dedicated to <mark>hardwork and ethical practices.</mark></h3>
     </div> <br>
   
     <!--recent work images-->
-    <div class="container-fluid center" id="recentWork">
+    <div class="container-fluid center" id="recentWork" role="main">
       <h3>Recent Work</h3><br><br>
       <div class="row">
         <div class="col-sm-4">
           <figure>
               <a href="http://mickeyskids.com/" target="_blank">
-                <img class="photo-link" src="photos\MKsite.png" class="img-responsive" style="width:100%" alt="Website Image">
+                <img class="photo-link" src="photos\MKsite.png" class="img-responsive" style="width:100%" alt="Website example image">
               </a>
             <figcaption>Mickeys kids is a website I built for my band using <mark>Bootstrap</mark> as my&nbsp;framework</figcaption>
           </figure>
@@ -65,8 +65,8 @@
   <!--end recent work images-->
     
   
-    <footer class="container-fluid">
-        <a href="synth/index.html" target="_blank"><span class="glyphicon glyphicon-sunglasses"> Dan Timlin</span></a>
+    <footer class="container-fluid" role="contentinfo">
+        <a href="synth/index.html" target="_blank"><span class="glyphicon glyphicon-sunglasses" aria-label="Try the cat piano">Dan Timlin</span></a>
     </footer>
 
   
