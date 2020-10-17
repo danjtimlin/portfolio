@@ -1,0 +1,77 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: coral;
+  font-family: 'Creepster', cursive;
+  overflow: hidden;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+p {
+  color: coral;
+  font-family: 'Creepster', cursive;
+  font-size: max(8vw, 30px);
+  text-align: center;
+}
+span {
+  font-family: sans-serif;
+  color: aliceblue;
+  padding-right: 30px;
+  font-size: 14px;
+  opacity: 0;
+  position: fixed;
+}
+
+button:hover {
+  background-color: #ffdfbf !important;
+}
+img {
+  background-color: coral;
+  height: 320px;
+  width: 320px;
+  opacity: 0;
+}
+
+.nav,
+.nav-link,
+.nav-item {
+  font-family: 'Creepster', cursive;
+  color: coral;
+  font-size: 2vw;
+  justify-content: center;
+}
+.nav-link,
+.nav-item:hover {
+  font-family: 'Creepster', cursive;
+  color: coral !important;
+  opacity: 70%;
+}
+.content {
+  clip-path: circle(100%);
+}
+#blurb1,
+#blurb2,
+#blurb3,
+#blurb4 {
+  clip-path: circle(0%);
+  position: fixed;
+}
+#blurb2 {
+  z-index: 2;
+}
+#blurb3 {
+  z-index: 3;
+}
+#blurb4 {
+  z-index: 4;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+}
