@@ -1,5 +1,5 @@
 //GSAP text animation
-gsap.from('.content',{opacity: 0, duration: 2, ease:"sine.out", clipPath:'circle(0%)',delay:0.5,});
+gsap.from('.content',{opacity: 0, duration: 3, ease:"sine.out", clipPath:'circle(0%)',delay:0.8,});
 gsap.from('.anim1', {duration:1, opacity:0, ease:"back.out(1.7)", delay: 1.5, stagger: 0.3})
 
 

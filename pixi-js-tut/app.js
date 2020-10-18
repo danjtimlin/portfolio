@@ -6,7 +6,7 @@ const app = new PIXI.Application({
   height: window.innerHeight,
   resizeTo: window
 })
-const sprites = new PIXI.ParticleContainer(10000, {
+const sprites = new PIXI.ParticleContainer(100, {
   scale: true,
   position:true,
   rotation: true,
@@ -18,7 +18,7 @@ app.stage.addChild(sprites);
 //creat array to store sprites
 const skulls = [];
 const totalSprites = app.renderer
-instanceof PIXI.Renderer ? 10000: 100;
+instanceof PIXI.Renderer ? 100: 10;
 
 for (let i =0; i < totalSprites; i++) {
   //create sprite
@@ -81,16 +81,8 @@ app.ticker.add(() => {
     }
   }
   //increment the ticker
-  tick += 0.1
+  tick += 0.05
 })
 
 
 
-
-
-// requestAnimationFrame(animate);
-
-// function animate() {
-//   requestAnimationFrame(animate);
-//   img.transform +=0.01
-// }
