@@ -35,8 +35,8 @@ button:hover {
 }
 img {
   background-color: coral;
-  height: 320px;
-  width: 320px;
+  height: 33vh;
+  width: auto;
   opacity: 0;
 }
 
